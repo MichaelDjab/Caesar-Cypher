@@ -1,0 +1,54 @@
+body {
+  font-family: monospace;
+  font-size: 30px;
+  background-color: #f4f9f4;
+}
+
+button {
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px;
+  width: 325px;
+}
+
+.encrypt_button {
+  background-color: darkgreen;
+}
+
+.decrypt_button {
+  background-color: darkred;
+}
+
+div {
+  margin: auto;
+  width: 50%;
+}
+
+fieldset {
+  border-radius: 10px;
+}
+
+h1 {
+  color: #045762;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: monospace;
+  border-width: 3px 1px 1px 3px;
+  border-radius: 5px;
+  background-color: #dff3e3;
+}
+
+textarea {
+  border-radius: 5px;
+  border-width: 3px 1px 1px 3px;
+  font-size: 25px;
+  width: 100%;
+  background-color: #dff3e3;
+}

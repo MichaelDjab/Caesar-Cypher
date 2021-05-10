@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar cypher</title>
+  <script src="caesar_cypher.js">
+  </script>
+  <link rel="stylesheet" href="caesar_cypher.css">
+</head>
+
+<body>
+  <!-- START CAESAR CYPHER -->
+
+  <!-- User enters text and a shift number. Each letter in the text, gets
+    shifted forward by that shift when encrypting and backwards when decrypting-->
+  <div class="">
+    <h1>Caesar cypher</h1>
+    <fieldset>
+      <legend>Original</legend>
+      <input id="cypher_shift" type="text" name="shift" value="" placeholder="Enter shift here"> <br>
+      <textarea id="cypher_text" rows="8" cols="80" placeholder="Enter text"></textarea> <br>
+    </fieldset>
+    <button type="button" onclick="encrypt()" class="encrypt_button">Encrypt</button>
+    <button type="button" onclick="decrypt()" class=" decrypt_button">Decrypt</button>
+    <fieldset>
+      <legend>Result</legend>
+      <p id="cypher_result">&nbsp</p>
+    </fieldset>
+  </div>
+
+  <!-- END CAESAR CYPHER -->
+</body>
+
+</html>
